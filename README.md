@@ -150,3 +150,9 @@ npm install -D @sveltejs/svelte-virtual-list
 ## Bugs and feedback
 
 Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+
+## External References
+
+This setup would not be possible without the help of these blog posts.
+* [How To Use Svelte JS with Tailwind CSS](https://levelup.gitconnected.com/how-to-use-svelte-js-with-tailwind-css-f0554187eca1)
+* [Solid Sapper setup with PostCSS and Tailwind](https://codechips.me/sapper-with-postcss-and-tailwind/)

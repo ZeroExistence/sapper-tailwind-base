@@ -9,13 +9,22 @@
 
 <div class="grid gril-cols-1 items-center">
 <div>
-<h1 class="text-3xl text-white">Great success!</h1>
+<h1>Great success!</h1>
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">
 	<figcaption class="text-xl text-white">Have fun with Sapper!</figcaption>
 </figure>
 
-<p class="text-xl text-white"><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
 </div>
 </div>
+
+<style lang="postcss">
+	h1 {
+		@apply text-3xl text-white;
+	}
+	p {
+		@apply text-xl text-white;
+	}
+</style>
